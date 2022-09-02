@@ -5,7 +5,7 @@ function Card(props) {
   return (
     <div className={styles.course}>
         <figure className={styles.course_figure_tag}>
-            <img className={styles.course_img} src={props.data.img} alt={"python_course"+` ${props.data.id}`}></img>
+            <img className={styles.course_img} src={props.data.img} alt={`python_course ${props.data.id}`}></img>
         </figure>
         <h4 className={styles.course_description_text}>{props.data.title}</h4>
         <p className={styles.instructor}>{props.data.instructor}</p>
