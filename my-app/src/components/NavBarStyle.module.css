@@ -10,9 +10,12 @@
     left: 0;
 }
 .nav_logo{
-    height: 34px;
-    width: 91px;
-    margin: 18px 0px 18px 20px;
+  height: 34px;
+  width: 91px;
+}
+
+.nav_logo_box{
+  margin: 18px 0px 18px 20px;
 }
 .nav_button{
   background-color: white; /* Green */
@@ -85,4 +88,22 @@
 
   .nav_button:hover{
     color: blueviolet;
+}
+@media screen and (min-width:800px) {
+  .active_small{
+    display: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .nav_logo_box{
+    /*justify-self: center;*/
+    margin: auto;
+  }
+  .active_large{
+    display: none;
+  }
+  .active_small{
+    float: right;
+  }
 }

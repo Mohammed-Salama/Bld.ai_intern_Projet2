@@ -1,8 +1,12 @@
 import React from 'react'
-import CardsSection from './CardsSection'
-function HomePage(props) {
+import HomePageSecondContainer from './HomePageSecondContainer.js'
+import WelcomeTextAndAlert from './WelcomeTextAndAlert.js'
+function HomePage() {
   return (
-    <CardsSection data={props.data}/>
+    <>
+        <WelcomeTextAndAlert />
+        <HomePageSecondContainer/>
+    </>
   )
 }
 
