@@ -7,8 +7,8 @@ function HomePageSecondContainer() {
     <>
     
     <div className={styles.welcome_page_second_container}>
-        <h1 className={styles.welcome_text_tilte}>A broad selection of courses</h1>
-        <p className={styles.welcome_text_description}>Choose from 185,000 online video courses with new additions published every month</p>
+        <h1 className={styles.courses_container_text_tilte}>A broad selection of courses</h1>
+        <p className={styles.courses_container_text_description}>Choose from 185,000 online video courses with new additions published every month</p>
         <TabsBar/>
         <CardsSection/>
     </div> 

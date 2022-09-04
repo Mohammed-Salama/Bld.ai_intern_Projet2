@@ -6,8 +6,8 @@ function CardsSection() {
   const data = React.useContext(CoursesDataContext);
   return (
     <div className={styles.courses_container}>
-        <h1 className={styles.courses_container_title}>{data.title}</h1>
-        <p className={styles.courses_container_description}>{data.description}</p>
+        <h1 className={styles.courses_container_inner_title}>{data.title}</h1>
+        <p className={styles.courses_container_inner_description}>{data.description}</p>
         <button className={styles.explore_button}>{"Explore "+data.topic}</button>
         <div className={styles.courses_cards_box}>
             {data.courses.map(course => (

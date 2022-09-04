@@ -1,6 +1,6 @@
 .welcome_page_first_container {
   display: flex;
-  height: 400px;
+  /*height: 400px;*/
   width: 80%;
   background-color: rgb(249, 249, 249);;
   position: relative;
@@ -21,7 +21,27 @@
     margin-bottom: auto;
 }
 .welcome_text_tilte{
-    font-family: serif;
+    /*font-family: serif;*/
     font-size: 1.9rem;
-    font-weight: 600;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width:700px) {
+  .welcome_page_first_container {
+    flex-direction: column-reverse;
+  }
+  .welcome_text_tilte{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.welcome_text_container{
+  width: 90%;
+  margin: auto;
+}
+.alarm_img{
+  height: 300px;
+  width: 70%;
+  margin: auto;
+}
 }

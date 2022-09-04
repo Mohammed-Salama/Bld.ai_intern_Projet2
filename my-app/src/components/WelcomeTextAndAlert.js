@@ -7,7 +7,7 @@ function WelcomeTextAndAlert() {
                 <h1 className={styles.welcome_text_tilte}>New to Udemy? Lucky you.</h1>
                 <p className={styles.welcome_text_description}>Courses start at E£169.99. Get your new-student offer before it expires.</p>
             </div>
-            <img src="./imgs/udemy-alarm.jpg" alt="udemy alarm"/>
+            <img className={styles.alarm_img} src="./imgs/udemy-alarm.jpg" alt="udemy alarm"/>
         </div>
   )
 }

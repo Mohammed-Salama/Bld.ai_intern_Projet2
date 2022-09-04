@@ -83,3 +83,16 @@
     margin-bottom: 0px;
     font-size: 0.8rem;
 }
+
+@media screen and (max-width:700px) {
+    .course_description_text{
+        font-size: 0.9rem;
+    }
+    .course_price{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    .instructor{
+        font-size: 0.8rem;
+    }
+}
