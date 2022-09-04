@@ -5,7 +5,6 @@ import data from './data/data.json';
 import {Routes, Route} from 'react-router-dom';
 import HomePage from './components/HomePage';
 import CoursePage from './components/CoursePage';
-import Temp from './components/Temp';
 export const CoursesDataContext = React.createContext();
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
       <Routes> 
         <Route path="/" element={<HomePage/>} />
         <Route path="/courses/:courseId" element={<CoursePage/>} />
-        <Route path="/temp" element={<Temp/>} />
       </Routes>
     </CoursesDataContext.Provider>
     </>
