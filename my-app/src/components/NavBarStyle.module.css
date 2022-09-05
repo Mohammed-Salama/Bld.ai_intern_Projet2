@@ -2,12 +2,13 @@
     height: 70px;
     background-color: white;
     box-shadow: 0 4px 2px -2px rgb(209, 209, 209);
-    z-index: 1; 
     display: flex;
-    position: fixed;
+    /*position: fixed;*/
+    position: relative;
     top: 0;
     right: 0;
     left: 0;
+    z-index: 2;
 }
 .nav_logo{
   height: 34px;

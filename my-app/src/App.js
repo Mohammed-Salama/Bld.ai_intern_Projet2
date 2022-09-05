@@ -5,6 +5,8 @@ import data from './data/data.json';
 import {Routes, Route} from 'react-router-dom';
 import HomePage from './components/HomePage';
 import CoursePage from './components/CoursePage';
+
+
 export const CoursesDataContext = React.createContext();
 
 function App() {

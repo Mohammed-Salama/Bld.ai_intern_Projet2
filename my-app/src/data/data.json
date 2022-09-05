@@ -4,61 +4,139 @@
         "id": "python_c1",
         "img":"./imgs/python-c1.jpg",
         "title":"Learn Python: The Complete Python Programming Course",
-        "instructor":"Avinash Jain, The Codex",
+        "description":"Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+        "instructors":[
+          {
+          "name": "Avinash Jain"
+          } , 
+          {
+            "name":"The Codex"
+          }
+      ],
         "stars":4.3,
-        "students":1721,
+        "ratings_count":3192,
+        "students":19423,
         "price":679.99,
-        "bestseller":false
+        "bestseller":false,
+        "last_updated":"05/2022",
+        "course_language":"English",
+        "caption_language":"English",
+        "top_category":"Development",
+        "sub_category":"Programming Languages",
+        "sub_sub_category":"Python"
       },
       {
         "id": "python_c2",
         "img":"./imgs/python-c2.jpg",
         "title":"Learning Python for Data Analysis and Visualization",
-        "instructor":"Jose Portille",
+        "description":"Learn python and how to use it to analyze,visualize and present data. Includes tons of sample code and hours of video!",
+        "instructors":[
+          {
+            "name":"Jose Portille"
+          }
+        ],
         "stars":4.8,
-        "students":4037,
+        "ratings_count":4037,
+        "students":  30483,
         "price":1499.99,
-        "bestseller":true
+        "bestseller":true,
+        "last_updated":"05/2022",
+        "course_language":"English",
+        "caption_language":"English",
+        "top_category":"Development",
+        "sub_category":"Programming Languages",
+        "sub_sub_category":"Python"
       },
       {
         "id": "python_c3",
         "img":"./imgs/python-c3.jpg",
         "title":"Python for Beginners - Learn Programming from scratch",
-        "instructor":"Edwin Diaz, Coding Faculty Solutions",
+        "description":"Python For Beginners : This course is meant for absolute beginners in programming or in python.",
+        "instructors":[
+          {
+            "name":"Edwin Diaz"
+          },
+          {
+            "name":"Coding Faculty Solutions"
+          }
+        ],
         "stars":4.2,
-        "students":1231,
+        "ratings_count":1231,
+        "students":  14924,
         "price":679.99,
-        "bestseller":false
+        "bestseller":false,
+        "last_updated":"05/2022",
+        "course_language":"English",
+        "caption_language":"English",
+        "top_category":"Development",
+        "sub_category":"Programming Languages",
+        "sub_sub_category":"Python"
       },
       {
         "id": "python_c4",
         "img":"./imgs/python-c4.jpg",
         "title":"Learn Python: Python for Beginners",
-        "instructor":"Abrar Hussain",
+        "description":"Python introduction for beginners. Learn complete Python from scratch!",
+        "instructors":[
+          {
+            "name":"Abrar Hussain"
+          }
+        ],
         "stars":4.5,
-        "students":1439,
+        "ratings_count":1439,
+        "students":  23523,
         "price":389.99,
-        "bestseller":false
+        "bestseller":false,
+        "last_updated":"05/2022",
+        "course_language":"English",
+        "caption_language":"English",
+        "top_category":"Development",
+        "sub_category":"Programming Languages",
+        "sub_sub_category":"Python"
       },
       {
         "id": "python_c5",
         "img":"./imgs/python-c5.jpg",
         "title":"Python Beyond the Basics - Object-Oriented Programming",
-        "instructor":"Infinite Skills",
+        "description":"From Classes To Inheritance - OOP In-Depth For Python Programmers",
+        "instructors":[
+          {
+            "name":"Infinite Skills"
+          }  
+        ],
         "stars":4.4,
-        "students":2570,
+        "ratings_count":2570,
+        "students":  11323,
         "price":529.99,
-        "bestseller":false
+        "bestseller":false,
+        "last_updated":"05/2022",
+        "course_language":"English",
+        "caption_language":"English",
+        "top_category":"Development",
+        "sub_category":"Programming Languages",
+        "sub_sub_category":"Python"
       },
       {
         "id": "python_c6",
         "img":"./imgs/python-c6.jpg",
         "title":"Python for Data Structures, Algorithms, and Interviews!",
-        "instructor":"Jose Portilla",
+        "description":"Get a kick start on your career and ace your coding interviews!",
+        "instructors":[
+          {
+            "name":"Jose Portille"
+          }
+         ],
         "stars":4,
-        "students":9471,
+        "ratings_count":9471,
+        "students":  21423,
         "price":1299.99,
-        "bestseller":false
+        "bestseller":false,
+        "last_updated":"05/2022",
+        "course_language":"English",
+        "caption_language":"English",
+        "top_category":"Development",
+        "sub_category":"Programming Languages",
+        "sub_sub_category":"Python"
       }
     ],
     "title":"Expand your career opportunities with Python",

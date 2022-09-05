@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 import styles from './CardsSectionStyle.module.css'
 import {CoursesDataContext} from '../App.js';
+import {Link} from 'react-router-dom';
 function CardsSection() {
   const data = React.useContext(CoursesDataContext);
   return (
@@ -11,7 +12,9 @@ function CardsSection() {
         <button className={styles.explore_button}>{"Explore "+data.topic}</button>
         <div className={styles.courses_cards_box}>
             {data.courses.map(course => (
+              <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to = {`/courses/${course.id}`}>
                 <Card key={course.id} data={course}/>
+              </Link>
             ))}
         </div>
     </div>
