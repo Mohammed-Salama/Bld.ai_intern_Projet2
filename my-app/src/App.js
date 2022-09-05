@@ -5,7 +5,7 @@ import data from './data/data.json';
 import {Routes, Route} from 'react-router-dom';
 import HomePage from './components/HomePage';
 import CoursePage from './components/CoursePage';
-
+import ScrollToTop from './components/ScrollToTop';
 
 export const CoursesDataContext = React.createContext();
 
@@ -14,10 +14,12 @@ function App() {
     <>
     <CoursesDataContext.Provider value={data}>
       <NavBar />
+      <ScrollToTop>
       <Routes> 
         <Route path="/" element={<HomePage/>} />
         <Route path="/courses/:courseId" element={<CoursePage/>} />
       </Routes>
+      </ScrollToTop>
     </CoursesDataContext.Provider>
     </>
   );
