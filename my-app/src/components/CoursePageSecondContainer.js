@@ -1,19 +1,17 @@
 import React from 'react'
 import styles from './CoursePageSecondContainerStyles.module.css'
 import {Rating} from 'react-simple-star-rating'
-import {faSealExclamation} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function CoursePageSecondContainer(props) {
    const Instructors = props.data.instructors.map((instructor , index) =>{
     if (index===props.data.instructors.length-1){
-        return <p className={styles.instructor}>{instructor.name}</p>
+        return <p key={index} className={styles.instructor}>{instructor.name}</p>
     }
     else{
         return (
-            <>
-                <p className={styles.instructor}>{instructor.name}</p>
-                <p className={styles.instructor_comma}>,</p>
-            </>
+            <span key={index}>
+                <p   className={styles.instructor}>{instructor.name}</p>
+                <p  className={styles.instructor_comma}>,</p>
+                </span>
         )
     }
    })

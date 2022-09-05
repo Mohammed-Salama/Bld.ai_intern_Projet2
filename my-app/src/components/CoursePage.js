@@ -12,7 +12,7 @@ function CoursePage() {
     <>
       <CoursePageTopContainer data={courseData}/>
       <CoursePageSecondContainer data={courseData}/>
-      <CoursePageThirdContainer/>
+      <CoursePageThirdContainer data={courseData}/>
     </>
   )
 }
