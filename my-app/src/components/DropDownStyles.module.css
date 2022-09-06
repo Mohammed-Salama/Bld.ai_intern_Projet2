@@ -1,0 +1,48 @@
+.drop_down_header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    margin: 0;
+    color: #000000;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #ced0d3;
+    align-items: center;
+}
+.arrow_icon {
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.drop_down_content{
+    display: none;
+    border: 1px solid #ced0d3;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.title{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.play_icon{
+    padding-left: 20px;
+    display: inline-block;
+}
+.point{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    display: inline-block;
+    color: #242424;
+    font-size: 0.95rem;
+}
+.content_title{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}

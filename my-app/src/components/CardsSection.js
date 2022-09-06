@@ -12,8 +12,8 @@ function CardsSection() {
         <button className={styles.explore_button}>{"Explore "+data.topic}</button>
         <div className={styles.courses_cards_box}>
             {data.courses.map(course => (
-              <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to = {`/courses/${course.id}`}>
-                <Card key={course.id} data={course}/>
+              <Link key={course.id}  style={{ color: 'inherit', textDecoration: 'inherit'}} to = {`/courses/${course.id}`}>
+                <Card data={course}/>
               </Link>
             ))}
         </div>

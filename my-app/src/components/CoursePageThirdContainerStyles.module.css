@@ -6,3 +6,16 @@
     margin-left: 15%;    
     max-width: 650px;
  }
+.course_info{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 10px;
+    color: rgb(46, 45, 45);
+}
+.content_title{
+   margin-top: 25px;
+   margin-bottom: 15px;
+}

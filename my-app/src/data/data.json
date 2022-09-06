@@ -18,6 +18,9 @@
         "students":19423,
         "price":679.99,
         "bestseller":false,
+        "sections_num":15,
+        "lectures_num":  146,
+        "total_length":  "14h 42m",
         "learning_points":[
           "Create their own Python Programs",
           "Become an experienced Python Programmer",
@@ -28,7 +31,230 @@
         "caption_language":"English",
         "top_category":"Development",
         "sub_category":"Programming Languages",
-        "sub_sub_category":"Python"
+        "sub_sub_category":"Python",
+        "content":[
+          {
+             "title":"Up and Running With Python",
+             "points":[
+                "Installing Python",
+                "Hello World"
+             ]
+          },
+          {
+             "title":"The Basics (Data Types)",
+             "points":[
+                "Variables",
+                "Multiple Assignment",
+                "Data Types and Ints",
+                "Strings",
+                "Placeholders",
+                "Lists/Arrays",
+                "List Functions",
+                "Dictionaries",
+                "Dictionary Functions",
+                "Tuples",
+                "Exercise Files"
+             ]
+          },
+          {
+             "title":"Conditions and Loops",
+             "points":[
+                "If-Else Statements",
+                "Relational Operators",
+                "Nested If/Else",
+                "Elif Statements",
+                "Logical Operators",
+                "For Loops",
+                "While Loops",
+                "Nested For Loops",
+                "Pass, Break and Continue",
+                "Try and Except",
+                "Commenting",
+                "Quick Tips",
+                "Exercise Files"
+             ]
+          },
+          {
+             "title":"Functions!",
+             "points":[
+                "Creating our own Functions",
+                "Global and Local Vars",
+                "Abs and Bool",
+                "Help and Dir",
+                "Eval and Exec",
+                "Str, Int, Float",
+                "Recap and Sum"
+             ]
+          },
+          {
+             "title":"Classes! (Object Orientated Programming)",
+             "points":[
+                "Basics of Classes",
+                "Functions in Classes",
+                "Class Attributes",
+                "Inheritance",
+                "Overriding Methods"
+             ]
+          },
+          {
+             "title":"File Input/Output",
+             "points":[
+                "Creating a File",
+                "Creating a File (Windows)",
+                "Reading a File",
+                "Writing to a File",
+                "Appending to Files",
+                "Copying Files"
+             ]
+          },
+          {
+             "title":"Using Python Modules",
+             "points":[
+                "Random Module - Randint",
+                "Guessing Game",
+                "Guessing Game Challenge",
+                "Random Module - Shuffle and Choice",
+                "Sys Module",
+                "Time Module",
+                "Turtle Module",
+                "For Loops in Turtle",
+                "Up and Down Functions",
+                "Coloring in Turtle",
+                "Functions in Turtle",
+                "Exercise Files"
+             ]
+          },
+          {
+             "title":"Crawling The Web",
+             "points":[
+                "Re Module",
+                "Crawling The Web (Stocks)",
+                "Stock Quotes (.py)",
+                "Crawling The Web (Weather)",
+                "Weather (.py)",
+                "Crawling The Web (Definition)",
+                "Definition (.py)"
+             ]
+          },
+          {
+             "title":"Beautiful Soup HTML Parsing",
+             "points":[
+                "Intro to Beautiful Soup",
+                "Installing the Beautiful Soup Module",
+                "Prettify with Soup",
+                "Drilling Down",
+                "Functions in Soup",
+                ".String and .Parent",
+                "Searching in Soup",
+                "Weather Parsing",
+                "Antonym Parsing"
+             ]
+          },
+          {
+             "title":"MatPlotLib - Charts, Plots and 3D Figures!",
+             "points":[
+                "Intro to MatPlotLib",
+                "First Graph!",
+                "Understanding the MatPlotLib Interface",
+                "Graph Labels",
+                "Creating a Graph from a File",
+                "Understanding SubPlots and Figures",
+                "Coloring of Graph",
+                "Multiple Plots in a Graph",
+                "Multiple Graphs in a Figure",
+                "What about 3 graphs?",
+                "Bar Graphs Intro",
+                "Modifying our Bar Graph",
+                "Pie Chart Intro",
+                "Modifying our Pie Chart",
+                "Adding a Legend",
+                "3D Graphics Intro",
+                "3D Scatter Plots",
+                "Multiple 3D Scatter Plots",
+                "3D Bar Graphs",
+                "3D Wireframes"
+             ]
+          },
+          {
+             "title":"Data Analysis with Pandas!",
+             "points":[
+                "Intro to Pandas",
+                "Series Data Structure",
+                "Series Continuation",
+                "Data Frames Intro",
+                "Creating a CSV",
+                "Reading a CSV",
+                "Writing to a CSV",
+                "Getting our Data",
+                "Slicing Data Frames",
+                "Data Manipulation",
+                "Indexing and More",
+                "Merging Data Frames",
+                "GroupBy Function",
+                "MovieLens Data",
+                "Heavy Data Analysis",
+                "MatPlotLib with Pandas",
+                "Let's Finish This"
+             ]
+          },
+          {
+             "title":"Python GUI with Tkinter",
+             "points":[
+                "Tkinter Introduction",
+                "Labels",
+                "Buttons",
+                "Layouts",
+                "Fill",
+                "Grid Layout",
+                "Entries",
+                "Check Buttons",
+                "GUI Login",
+                "Actions on Button Click",
+                "Binding Functions",
+                "More Binding!",
+                "Getting Entry Data",
+                "Message Box",
+                "Drop Down Menus",
+                "Calculator Part 1",
+                "Calculator Part 2",
+                "Calculator Part 3",
+                "Calculator Part 4",
+                "Canvas Intro",
+                "Canvas Objects",
+                "Canvas Fill",
+                "Random Rectangle Generator",
+                "Text and Arcs",
+                "Animations"
+             ]
+          },
+          {
+             "title":"Our First Game (Bounce!)",
+             "points":[
+                "Creating our Ball",
+                "Adding the Game Interface",
+                "Adding the Paddle",
+                "Final Touches",
+                "Recap",
+                "Bounce! (.py) (v1/v2/v3)"
+             ]
+          },
+          {
+             "title":"Our Second Game (Pong!)",
+             "points":[
+                "Creating our Ball",
+                "Adding Paddle1",
+                "Adding Paddle2",
+                "Final Touches",
+                "Pong! (.py)"
+             ]
+          },
+          {
+             "title":"What's Next?",
+             "points":[
+                "Up and Beyond!"
+             ]
+          }
+       ]
       },
       {
         "id": "python_c2",
@@ -45,6 +271,9 @@
         "students":  30483,
         "price":1499.99,
         "bestseller":true,
+        "sections_num":15,
+        "lectures_num":  146,
+        "total_length":  "14h 42m",
         "last_updated":"05/2022",
         "course_language":"English",
         "caption_language":"English",

@@ -4,6 +4,10 @@ import {useParams} from 'react-router-dom';
 import CoursePageTopContainer from './CoursePageTopContainer';
 import CoursePageSecondContainer from './CoursePageSecondContainer';
 import CoursePageThirdContainer from './CoursePageThirdContainer';
+
+
+
+
 function CoursePage() {
   const courseID = useParams();
   const data = React.useContext(CoursesDataContext);
