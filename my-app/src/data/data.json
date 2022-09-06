@@ -32,6 +32,10 @@
         "top_category":"Development",
         "sub_category":"Programming Languages",
         "sub_sub_category":"Python",
+        "requirements":[
+          "Macintosh (OSX)/ Windows(Vista and higher) Machine",
+          "Internet Connection"
+        ],
         "content":[
           {
              "title":"Up and Running With Python",

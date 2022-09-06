@@ -1,24 +1,27 @@
-import React , { useRef} from 'react'
+import React , { useRef , useEffect } from 'react'
 import styles from './DropDownStyles.module.css'
 import '../App.css'
 import { faChevronDown , faPlayCircle} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function DropDown(props) {
-  //const [opened, setOpened] = useState(0);
-  let opened = 0;
+  //const [opened , setOpened] = useState(props.first_state);
+  let opened = props.first_state;
   const contentRef = useRef(null)
   function toggleDropDown() {
     if (opened === 0) {
-      contentRef.current.style.display = "inline-block";
-      //setOpened(1);
       opened = 1;
     } else {
-      contentRef.current.style.display = "none";
-      //setOpened(0);
       opened = 0;
     }
   }
+  useEffect(() => {
+    if (opened === 0) {
+      contentRef.current.style.display = "none";
+    } else {
+      contentRef.current.style.display = "inline-block";
+    }
+  }, [opened])
   const content = props.data.points.map((point , index) => {
     return (
       <div key={index}>

@@ -14,8 +14,36 @@
     font-weight: 400;
     padding-top: 10px;
     color: rgb(46, 45, 45);
+    display: inline-block;
 }
 .content_title{
    margin-top: 25px;
    margin-bottom: 15px;
+}
+
+.requirements_title{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.requirement_list_item{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-bottom: 8px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 5px;
+    color: rgb(46, 45, 45);
+}
+.info_and_expand{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.expand_collapse_button{
+   color: blueviolet;
+   border: 0px;
+   background-color: white;
+   font-weight: 800;
 }
