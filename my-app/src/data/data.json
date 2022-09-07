@@ -20,7 +20,10 @@
         "bestseller":false,
         "sections_num":15,
         "lectures_num":  146,
-        "total_length":  "14h 42m",
+        "total_hours":14,
+        "articles_num":2,
+        "downloadable_resources":3,
+         "total_minutes":42,
         "learning_points":[
           "Create their own Python Programs",
           "Become an experienced Python Programmer",

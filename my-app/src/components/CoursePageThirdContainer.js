@@ -41,7 +41,7 @@ function CoursePageThirdContainer(props) {
         <WhatYouWillLearn data={props.data} />
         <h2 className={styles.content_title}>Course content</h2>
         <div className={styles.info_and_expand}>
-          <p className={styles.course_info}>{props.data.sections_num+" sections. "+props.data.lectures_num+" lecture. "+props.data.total_length+" total length."}</p>
+          <p className={styles.course_info}>{props.data.sections_num+" sections. "+props.data.lectures_num+" lecture. "+props.data.total_hours+"h "+props.data.total_minutes+"m total length."}</p>
           <button className={styles.expand_collapse_button} onClick={toggleExpandCollapse}>{expand_collapse + " all sections"}</button>
         </div>
         <Spoiler controlRef={spoilerControlRef} maxHeight={260} showLabel="More sections" hideLabel="Less sections">
