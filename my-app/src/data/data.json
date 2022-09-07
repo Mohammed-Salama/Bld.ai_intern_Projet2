@@ -2,7 +2,7 @@
     "courses": [
       {
         "id": "python_c1",
-        "img":"./imgs/python-c1.jpg",
+        "img":"/imgs/python-c1.jpg",
         "title":"Learn Python: The Complete Python Programming Course",
         "description":"Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
         "instructors":[
@@ -263,7 +263,7 @@
       },
       {
         "id": "python_c2",
-        "img":"./imgs/python-c2.jpg",
+        "img":"/imgs/python-c2.jpg",
         "title":"Learning Python for Data Analysis and Visualization",
         "description":"Learn python and how to use it to analyze,visualize and present data. Includes tons of sample code and hours of video!",
         "instructors":[
@@ -305,7 +305,7 @@
       },
       {
         "id": "python_c3",
-        "img":"./imgs/python-c3.jpg",
+        "img":"/imgs/python-c3.jpg",
         "title":"Python for Beginners - Learn Programming from scratch",
         "description":"Python For Beginners : This course is meant for absolute beginners in programming or in python.",
         "instructors":[
@@ -330,7 +330,7 @@
       },
       {
         "id": "python_c4",
-        "img":"./imgs/python-c4.jpg",
+        "img":"/imgs/python-c4.jpg",
         "title":"Learn Python: Python for Beginners",
         "description":"Python introduction for beginners. Learn complete Python from scratch!",
         "instructors":[
@@ -374,7 +374,7 @@
       },
       {
         "id": "python_c6",
-        "img":"./imgs/python-c6.jpg",
+        "img":"/imgs/python-c6.jpg",
         "title":"Python for Data Structures, Algorithms, and Interviews!",
         "description":"Get a kick start on your career and ace your coding interviews!",
         "instructors":[

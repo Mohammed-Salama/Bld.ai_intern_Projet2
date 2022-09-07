@@ -4,7 +4,7 @@ import {useParams} from 'react-router-dom';
 import CoursePageTopContainer from './CoursePageTopContainer';
 import CoursePageSecondContainer from './CoursePageSecondContainer';
 import CoursePageThirdContainer from './CoursePageThirdContainer';
-
+import CoursePageRightComponent from './CoursePageRightComponent.js';
 
 
 
@@ -17,6 +17,7 @@ function CoursePage() {
       <CoursePageTopContainer data={courseData}/>
       <CoursePageSecondContainer data={courseData}/>
       <CoursePageThirdContainer data={courseData}/>
+      <CoursePageRightComponent data={courseData}/>
     </>
   )
 }
