@@ -277,14 +277,31 @@
         "price":1499.99,
         "bestseller":true,
         "sections_num":15,
-        "lectures_num":  146,
-        "total_length":  "14h 42m",
-        "last_updated":"05/2022",
+        "lectures_num":  110,
+        "total_length":  "21h 5m",
+        "learning_points":[
+          "Have an intermediate skill level of Python programming.",
+          "Use the Jupyter Notebook Environment.",
+          "Use the numpy library to create and manipulate arrays.",
+          "Use the pandas module with Python to create and structure data.",
+          "Learn how to work with various data formats within python, including: JSON,HTML, and MS Excel Worksheets.",
+          "Create data visualizations using matplotlib and the seaborn modules with python.",
+          "Have a portfolio of various data analysis projects."
+        ],
+        "last_updated":"09/2019",
         "course_language":"English",
         "caption_language":"English",
         "top_category":"Development",
         "sub_category":"Programming Languages",
-        "sub_sub_category":"Python"
+        "sub_sub_category":"Python",
+        "requirements":[
+          "Basic math skills.",
+          "Basic to Intermediate Python Skills",
+          "Have a computer (either Mac, Windows, or Linux)",
+          "Desire to learn!"
+        ],
+        "description_section":"<div><p><br></p><p><strong>PLEASE&nbsp;READ&nbsp;BEFORE&nbsp;ENROLLING:&nbsp;</strong></p><p><strong>1.)&nbsp;THERE&nbsp;IS&nbsp;AN&nbsp;UPDATED&nbsp;VERSION&nbsp;OF&nbsp;THIS&nbsp;COURSE:&nbsp;</strong></p><p><strong>PYTHON&nbsp;FOR&nbsp;DATA&nbsp;SCIENCE&nbsp;AND&nbsp;MACHINE&nbsp;LEARNING BOOTCAMP&nbsp;</strong></p><p><strong>2.)&nbsp;IF YOU ARE A COMPLETE BEGINNER IN PYTHON-CHECK OUT MY OTHER COURSE COMPLETE&nbsp;PYTHON&nbsp;MASTERCLASS&nbsp;JOURNEY!</strong></p><p><br></p><p><strong>CLICK&nbsp;ON&nbsp;MY&nbsp;PROFILE&nbsp;TO&nbsp;FIND&nbsp;IT. (PLEASE&nbsp;WATCH&nbsp;THE&nbsp;FIRST&nbsp;PROMO&nbsp;VIDEO&nbsp;ON&nbsp;THIS&nbsp;PAGE&nbsp;FOR&nbsp;MORE&nbsp;INFO)</strong></p><p>**********************************************************************************************************</p><p><br></p><p><strong>This course will give you the resources to learn python and effectively use it analyze and visualize data! Start your career in Data Science!</strong></p><p>&nbsp; &nbsp; You'll get a full understanding of how to program with Python and how to use it in conjunction with scientific computing modules and libraries to analyze data.&nbsp; </p><p>&nbsp; You will also get lifetime access to over 100 example python code notebooks, new and updated videos, as well as future additions of various data analysis projects that you can use for a portfolio to show future employers!&nbsp; </p><p>&nbsp; &nbsp; By the end of this course you will:&nbsp; </p><p>&nbsp; - Have an understanding of how to program in Python.&nbsp; </p><p>&nbsp; - Know how to create and manipulate arrays using numpy and Python.&nbsp; </p><p>&nbsp; - Know how to use pandas to create and analyze data sets.&nbsp; </p><p>&nbsp; - Know how to use matplotlib and seaborn libraries to create beautiful data visualization.&nbsp; </p><p>&nbsp; - Have an amazing portfolio of example python data analysis projects!&nbsp; </p><p>- Have an understanding of Machine Learning and SciKit Learn! </p><p>&nbsp; With 100+ lectures and over 20 hours of information and more than 100 example python code notebooks, you will be excellently prepared for a future in data science!&nbsp; </p></div>",  
+        "content":[]
       },
       {
         "id": "python_c3",
