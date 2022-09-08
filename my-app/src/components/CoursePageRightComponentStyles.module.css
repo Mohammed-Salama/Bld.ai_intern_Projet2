@@ -135,3 +135,8 @@
     margin-top: 10px;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 1080px){
+    .outer_container{
+        display: none;
+    }
+}
