@@ -3,6 +3,7 @@ import styles from './CoursePageThirdContainerStyles.module.css'
 import WhatYouWillLearn from './WhatYouWillLearn'
 import DropDown from './DropDown'
 import CourseDescriptionSection from './CourseDescriptionSection'
+import CoursePageInstructorsContainer from './CoursePageInstructorsContainer'
 import { Spoiler } from '@mantine/core';
 function CoursePageThirdContainer(props) {
   const [expand_collapse , setExpand_collapse] = useState("Expand");
@@ -52,6 +53,7 @@ function CoursePageThirdContainer(props) {
           {requirements}
         </ul>
         <CourseDescriptionSection data={props.data.description_section}/>
+        <CoursePageInstructorsContainer data={props.data.instructors}/>
       </div>
     </div>
   )

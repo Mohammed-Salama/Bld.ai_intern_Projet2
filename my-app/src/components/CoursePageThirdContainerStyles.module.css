@@ -3,7 +3,8 @@
  }
  .inner_container{
     display: inline-block;
-    margin-left: 15%;    
+    /*margin-left: 15%;    */
+    margin-left:min(240px, max(calc(100vw - 1200px + 50px) , 30px));
     max-width: 650px;
  }
 .course_info{

@@ -11,7 +11,7 @@
 }
 .inner_content{
    display: inline-block;
-   margin-left: 15%;
+   margin-left: min(240px, max(calc(100vw - 1200px + 50px) , 30px));
    padding-top: 15px;
    padding-bottom: 15px;
    max-width: 630px;

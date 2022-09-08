@@ -5,7 +5,6 @@ import CoursePageTopContainer from './CoursePageTopContainer';
 import CoursePageSecondContainer from './CoursePageSecondContainer';
 import CoursePageThirdContainer from './CoursePageThirdContainer';
 import CoursePageRightComponent from './CoursePageRightComponent.js';
-import CoursePageInstructors from './CoursePageInstructorsContainer';
 
 
 function CoursePage() {
@@ -20,7 +19,6 @@ function CoursePage() {
       <CoursePageSecondContainer data={courseData}/>
       <CoursePageThirdContainer data={courseData}/>
       <CoursePageRightComponent data={courseData}/>
-      <CoursePageInstructors data={courseData.instructors}/>
     </>
   )
 }

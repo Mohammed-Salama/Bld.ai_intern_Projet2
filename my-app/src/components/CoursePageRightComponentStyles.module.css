@@ -3,7 +3,7 @@
     position: absolute;
     background-color: white;
     top: 100px;
-    right:15%;
+    right:max(calc(100vw - 1420px + 50px) , 30px);
     width: 340px;
     z-index: 1;
     box-shadow: 0 4px 2px -2px rgb(209, 209, 209);
