@@ -1,9 +1,13 @@
 .show_more_and_less_button{
-    color: blueviolet;
+    color: #5624d0;
     border: 0px;
     background-color: white;
     font-weight: 600;
     font-size: 0.9rem;
     margin-left: 0px;
     padding-left: 0px;
+}
+.description_title{
+    margin-top: 25px;
+    margin-bottom: 0px;
 }

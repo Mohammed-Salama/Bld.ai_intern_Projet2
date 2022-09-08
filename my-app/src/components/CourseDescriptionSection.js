@@ -11,7 +11,7 @@ function CourseDescriptionSection(props) {
       }, []);
   return (
     <div  className={styles.description_section}>
-        <h2 className={styles.content_title}>Description</h2>
+        <h2 className={styles.description_title}>Description</h2>
         <Spoiler controlRef={spoilerControlRef} maxHeight={250} showLabel="Show more" hideLabel="Show less">
             <ViewHTML data={props.data}/>
         </Spoiler>
