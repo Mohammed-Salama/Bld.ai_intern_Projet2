@@ -1,0 +1,55 @@
+.students_feedback_container_title{
+    margin-bottom: 0px;
+}
+.feedback_outer_container{
+    display: flex;
+}
+.left_container{
+    display: inline-block;
+    margin-right: 0px;
+}
+.right_container{
+    display: inline-block;
+    margin-left: 30px;
+    flex-grow: 1;
+}
+.rating_num{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: #b4690e;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.right_container_inner_raw{
+    display: flex; 
+    margin-bottom: 0px;
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.course_rating_text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #b4690e;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.right_stars_bar{
+    display:"inline-block";
+    margin-left: 4px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.progress_bar{
+    flex-grow: 1;
+    margin-top:7px;
+}
+.percentage_text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 0px;
+    color: #5624d0;
+}

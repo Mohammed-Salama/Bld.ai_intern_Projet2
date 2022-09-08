@@ -40,4 +40,10 @@
 #lol select { 
   position: relative; 
 }
-
+.loading_spinner_box{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
