@@ -10,7 +10,7 @@ import CoursePageRightComponent from './CoursePageRightComponent.js';
 function CoursePage() {
   const courseID = useParams();
   const data = React.useContext(CoursesDataContext);
-  const courseData = data.courses.find(course => course.id === courseID.courseId, 'lol');
+  const courseData = data.courses_data.courses.find(course => course.id === courseID.courseId);
 
   
   return (

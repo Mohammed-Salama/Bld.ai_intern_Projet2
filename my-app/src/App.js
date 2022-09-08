@@ -2,7 +2,7 @@ import React , {useEffect , useState} from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
 //import data from './data/data.json';
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route , useSearchParams} from 'react-router-dom';
 import HomePage from './components/HomePage';
 import CoursePage from './components/CoursePage';
 import ScrollToTop from './components/ScrollToTop';
@@ -17,6 +17,7 @@ function App(){
       error: "",
     }
   );
+  const [searchParams, setSearchParams] = useSearchParams();
   useEffect(()=>{
       setAppState({...appState, isLoading: true});
       fetch("http://localhost:3000/data/data.json")
@@ -27,6 +28,13 @@ function App(){
         .catch((error) => {
           setAppState({ ...appState, isLoading: false, error: "Cannot fetch the data" });
         });
+        return () => {
+          const param = searchParams.get('courses_filter');
+          if (param) {
+            searchParams.delete('courses_filter');
+            setSearchParams(searchParams);
+          }
+        };
          // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const renderScreen = () => {
@@ -36,8 +44,8 @@ function App(){
       return <div className="error">{appState.error}</div>;
     } else if(appState.data) {
       return (
-        <CoursesDataContext.Provider value={appState.data}>
-        <NavBar />
+        <CoursesDataContext.Provider value={{"courses_data":appState.data , "courses_filter":searchParams}}>
+        <NavBar data={{"setSearchParameters":setSearchParams}}/>
         <ScrollToTop>
         <Routes> 
           <Route path="/" element={<HomePage/>} />

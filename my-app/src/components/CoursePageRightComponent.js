@@ -10,22 +10,24 @@ function CoursePageRightComponent(props) {
   const prTextRef = useRef(null);
   useEffect(()=>{
     window.addEventListener('scroll',()=>{
-      if(window.scrollY>390){
-        outerRef.current.style.position='fixed'
-        outerRef.current.style.top='30px'
-        outerRef.current.style.zIndex='4'
-        innerRef.current.style.dispaly='none'
-        innerRef.current.style.height='0px'
-        prTextRef.current.style.display='none'
-      }
-      else{
-        outerRef.current.style.position='absolute'
-        outerRef.current.style.top='100px'
-        outerRef.current.style.zIndex='1'
-        innerRef.current.style.dispaly='flex'
-        innerRef.current.style.height='190px'
-        prTextRef.current.style.display='block'
-      }
+      if(outerRef.current){
+        if(window.scrollY>390){
+          outerRef.current.style.position='fixed'
+          outerRef.current.style.top='30px'
+          outerRef.current.style.zIndex='4'
+          innerRef.current.style.dispaly='none'
+          innerRef.current.style.height='0px'
+          prTextRef.current.style.display='none'
+        }
+        else{
+          outerRef.current.style.position='absolute'
+          outerRef.current.style.top='100px'
+          outerRef.current.style.zIndex='1'
+          innerRef.current.style.dispaly='flex'
+          innerRef.current.style.height='190px'
+          prTextRef.current.style.display='block'
+        }
+     }
     })
   },[])
   //

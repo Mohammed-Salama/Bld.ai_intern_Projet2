@@ -1,18 +1,20 @@
-import React , { useRef , useEffect } from 'react'
+import React , { useRef , useEffect , useState } from 'react'
 import styles from './DropDownStyles.module.css'
 import '../App.css'
 import { faChevronDown , faPlayCircle} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function DropDown(props) {
-  //const [opened , setOpened] = useState(props.first_state);
-  let opened = props.first_state;
+  const [opened , setOpened] = useState(props.first_state);
+  //let opened = props.first_state;
   const contentRef = useRef(null)
   function toggleDropDown() {
     if (opened === 0) {
-      opened = 1;
+      setOpened(1);
+      //opened = 1;
     } else {
-      opened = 0;
+      setOpened(0);
+      //opened = 0;
     }
   }
   useEffect(() => {
