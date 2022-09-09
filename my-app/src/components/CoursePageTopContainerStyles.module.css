@@ -6,6 +6,15 @@
     background-color: #1c1d1f;
     box-shadow: 0 4px 2px -2px rgb(7, 7, 7);
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+.left_container{
+    display: inline-block;
+}
+.right_container{
+    display: inline-block;
+    margin-right: 10px;
 }
 .course_title{
     color: white;
@@ -14,7 +23,7 @@
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 .rating{
     color:orange;
@@ -43,4 +52,30 @@
     display: inline-block;
     margin-left: 9px;
     font-size: 0.9rem;
+}
+.price{
+    display: none;
+    color: white;
+}
+.buy_now_button{
+    display: none;
+    color: black;
+    background-color: white;
+    border: 0px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 50px;
+}
+@media screen and (max-width:1080px) {
+    .course_page_top_container{
+        top : calc(100vh - 70px);
+    }
+    .price{
+        display: inline-block;
+    }
+    .buy_now_button{
+        display: inline-block;
+    }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './CoursePageSecondContainerStyles.module.css'
 import {Rating} from 'react-simple-star-rating'
+import VideoContainer from './VideoContainer'
 function CoursePageSecondContainer(props) {
    const Instructors = props.data.instructors.map((instructor , index) =>{
     if (index===props.data.instructors.length-1){
@@ -23,6 +24,9 @@ function CoursePageSecondContainer(props) {
             <h5 className={styles.categories}>{props.data.sub_category}</h5>
             <p className={styles.arrow_icon}>{">"}</p>
             <h5 className={styles.categories}>{props.data.sub_sub_category}</h5>
+            <div className={styles.video_component_outter_container}>
+                <VideoContainer className={styles.video_component} data={props.data}/>
+            </div>
             <h1 className={styles.courses_page_second_container_title}>{props.data.title}</h1>
             <p className={styles.courses_page_second_container_description}>{props.data.description}</p>
             <h5 className={styles.rating}>{props.data.stars}</h5>
@@ -39,6 +43,17 @@ function CoursePageSecondContainer(props) {
             <p className={styles.last_line_text}>{props.data.course_language}</p>
             <img src="/icons/caption.png" className={styles.icon} alt="caption icon"></img>
             <p className={styles.last_line_text}>{props.data.caption_language}</p>
+            <h1 className={styles.price}>E£{props.data.price}</h1>
+            <button className={styles.add_to_cart_button}>Add to cart</button>
+            <div className={styles.small_texts_container}>
+                <p className={styles.small_text}>30-Day Money-Back Guarantee</p>
+                <p className={styles.small_text}>Full Lifetime Access</p>
+            </div>
+            <div className={styles.under_lined_button_container}>
+                <button className={styles.under_lined_button}><u>Share</u></button>
+                <button className={styles.under_lined_button}><u>Gift this course</u></button>
+                <button className={styles.under_lined_button}><u>Apply Coupon</u></button>
+            </div>
         </div>
     </div>
   )

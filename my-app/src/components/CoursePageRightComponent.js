@@ -1,14 +1,14 @@
-import React , {useEffect,useRef} from 'react'
+import React , {useEffect,useRef } from 'react'
 import styles from './CoursePageRightComponentStyles.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCirclePlay , faDownload , faInfinity, faMobile , faTrophy } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-regular-svg-icons'
-
+import VideoContainer from './VideoContainer'
 function CoursePageRightComponent(props) {
   const outerRef = useRef(null);
   const innerRef = useRef(null);
-  const prTextRef = useRef(null);
-  
+  //const [videoHeight , setVideoHeight] = useState(190);
+  //const [videoDisplay , setVideoDisplay] = useState('flex');
   useEffect(()=>{
     let maxY = document.documentElement.scrollHeight - document.documentElement.clientHeight-500;
     let topMaxY = maxY-160;
@@ -18,25 +18,25 @@ function CoursePageRightComponent(props) {
           outerRef.current.style.position='fixed'
           outerRef.current.style.top='30px'
           outerRef.current.style.zIndex='4'
-          innerRef.current.style.dispaly='none'
-          innerRef.current.style.height='0px'
-          prTextRef.current.style.display='none'
+          innerRef.current.style.display='none';
+          //setVideoDisplay('none');
+          //setVideoHeight(0);
         }
         else if (window.scrollY>maxY){
           outerRef.current.style.position='absolute'
           outerRef.current.style.top=`${topMaxY}px`
           outerRef.current.style.zIndex='1'
-          innerRef.current.style.dispaly='flex'
-          innerRef.current.style.height='190px'
-          prTextRef.current.style.display='block'
+          innerRef.current.style.display='block';
+          //setVideoDisplay('flex');
+          //setVideoHeight(190);
         }
         else{
           outerRef.current.style.position='absolute'
           outerRef.current.style.top='100px'
           outerRef.current.style.zIndex='1'
-          innerRef.current.style.dispaly='flex'
-          innerRef.current.style.height='190px'
-          prTextRef.current.style.display='block'
+          innerRef.current.style.display='block';
+          //setVideoDisplay('flex');
+          //setVideoHeight(190);
         }
      }
     })
@@ -44,9 +44,8 @@ function CoursePageRightComponent(props) {
   //
   return (
     <div ref={outerRef} className={styles.outer_container}>
-        <div ref={innerRef} className={styles.top_container} style={{backgroundImage: `url(${props.data.img})`}} >
-          <FontAwesomeIcon icon={faCirclePlay}  className={styles.play_icon} />
-          <h4 ref={prTextRef} className={styles.preview_text}>Preview this course</h4>
+        <div ref={innerRef} className={styles.video_component_outter_container}>
+          <VideoContainer className={styles.video_component} data={props.data}/>
         </div>
         <h2 className={styles.price}>E£{props.data.price}</h2>
         <button className={styles.add_to_cart_button}>Add to cart</button>
