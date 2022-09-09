@@ -33,7 +33,7 @@
             "three_stars_percentage":"15",
             "two_stars_percentage":"3",
             "one_star_percentage":"2",
-            "avg_stars":"4.3"
+            "avg_stars":"4.4"
          },
          "reviews":[
             {
@@ -553,46 +553,471 @@
        ]
       },
       {
-        "id": "python_c2",
-        "img":"/imgs/python-c2.jpg",
-        "title":"Learning Python for Data Analysis and Visualization",
-        "description":"Learn python and how to use it to analyze,visualize and present data. Includes tons of sample code and hours of video!",
-        "instructors":[
-          {
-            "name":"Jose Portille"
-          }
-        ],
-        "stars":4.8,
-        "ratings_count":4037,
-        "students":  30483,
-        "price":1499.99,
-        "bestseller":true,
-        "sections_num":15,
-        "lectures_num":  110,
-        "total_length":  "21h 5m",
-        "learning_points":[
-          "Have an intermediate skill level of Python programming.",
-          "Use the Jupyter Notebook Environment.",
-          "Use the numpy library to create and manipulate arrays.",
-          "Use the pandas module with Python to create and structure data.",
-          "Learn how to work with various data formats within python, including: JSON,HTML, and MS Excel Worksheets.",
-          "Create data visualizations using matplotlib and the seaborn modules with python.",
-          "Have a portfolio of various data analysis projects."
-        ],
-        "last_updated":"09/2019",
-        "course_language":"English",
-        "caption_language":"English",
-        "top_category":"Development",
-        "sub_category":"Programming Languages",
-        "sub_sub_category":"Python",
-        "requirements":[
-          "Basic math skills.",
-          "Basic to Intermediate Python Skills",
-          "Have a computer (either Mac, Windows, or Linux)",
-          "Desire to learn!"
-        ],
-        "description_section":"<div><p><br></p><p><strong>PLEASE&nbsp;READ&nbsp;BEFORE&nbsp;ENROLLING:&nbsp;</strong></p><p><strong>1.)&nbsp;THERE&nbsp;IS&nbsp;AN&nbsp;UPDATED&nbsp;VERSION&nbsp;OF&nbsp;THIS&nbsp;COURSE:&nbsp;</strong></p><p><strong>PYTHON&nbsp;FOR&nbsp;DATA&nbsp;SCIENCE&nbsp;AND&nbsp;MACHINE&nbsp;LEARNING BOOTCAMP&nbsp;</strong></p><p><strong>2.)&nbsp;IF YOU ARE A COMPLETE BEGINNER IN PYTHON-CHECK OUT MY OTHER COURSE COMPLETE&nbsp;PYTHON&nbsp;MASTERCLASS&nbsp;JOURNEY!</strong></p><p><br></p><p><strong>CLICK&nbsp;ON&nbsp;MY&nbsp;PROFILE&nbsp;TO&nbsp;FIND&nbsp;IT. (PLEASE&nbsp;WATCH&nbsp;THE&nbsp;FIRST&nbsp;PROMO&nbsp;VIDEO&nbsp;ON&nbsp;THIS&nbsp;PAGE&nbsp;FOR&nbsp;MORE&nbsp;INFO)</strong></p><p>**********************************************************************************************************</p><p><br></p><p><strong>This course will give you the resources to learn python and effectively use it analyze and visualize data! Start your career in Data Science!</strong></p><p>&nbsp; &nbsp; You'll get a full understanding of how to program with Python and how to use it in conjunction with scientific computing modules and libraries to analyze data.&nbsp; </p><p>&nbsp; You will also get lifetime access to over 100 example python code notebooks, new and updated videos, as well as future additions of various data analysis projects that you can use for a portfolio to show future employers!&nbsp; </p><p>&nbsp; &nbsp; By the end of this course you will:&nbsp; </p><p>&nbsp; - Have an understanding of how to program in Python.&nbsp; </p><p>&nbsp; - Know how to create and manipulate arrays using numpy and Python.&nbsp; </p><p>&nbsp; - Know how to use pandas to create and analyze data sets.&nbsp; </p><p>&nbsp; - Know how to use matplotlib and seaborn libraries to create beautiful data visualization.&nbsp; </p><p>&nbsp; - Have an amazing portfolio of example python data analysis projects!&nbsp; </p><p>- Have an understanding of Machine Learning and SciKit Learn! </p><p>&nbsp; With 100+ lectures and over 20 hours of information and more than 100 example python code notebooks, you will be excellently prepared for a future in data science!&nbsp; </p></div>",  
-        "content":[]
+         "id":"python_c2",
+         "img":"/imgs/python-c2.jpg",
+         "title":"Learning Python for Data Analysis and Visualization",
+         "description":"Learn python and how to use it to analyze,visualize and present data. Includes tons of sample code and hours of video!",
+         "instructors":[
+            {
+               "name":"Jose Portille",
+               "headline":"Head of Data Science at Pierian Training",
+               "instructor_rating":4.6,
+               "total_reviews_count":940627,
+               "total_students":3012950,
+               "courses_count":54,
+               "img":"/imgs/JosePortilla.jpg",
+               "about":"<div><p>Jose Marcial Portilla has a BS and MS in Mechanical Engineering from Santa Clara University and&nbsp;years of&nbsp;experience as a professional instructor and trainer for Data Science, Machine Learning and Python Programming. He has publications and patents in various fields such as microfluidics,&nbsp;materials science, and data science. Over the course of his career he has developed a skill set in analyzing data and he hopes to use his experience in teaching and data science to help other people learn the power of programming, the&nbsp;ability to analyze data, and the skills needed to present the data in clear and beautiful visualizations. Currently he works as the Head of Data Science for Pierian Training&nbsp;and provides in-person data science and python programming training courses to employees working at top companies, including General Electric, Cigna, The New York Times, Credit Suisse, McKinsey and many more.&nbsp;Feel free to check out the website link to find out more information about training offerings.</p></div>"
+            }
+         ],
+         "students_feedback":{
+            "five_stars_percentage":"46",
+            "four_stars_percentage":"36",
+            "three_stars_percentage":"13",
+            "two_stars_percentage":"3",
+            "one_star_percentage":"2",
+            "avg_stars":"4.4"
+         },
+         "reviews":[
+            {
+               "_class":"course_review",
+               "id":121048250,
+               "content":"His voice in each video can either be audible or barely audible. If it was consistent then it would be fine, but I have to keep adjusting the volume.",
+               "rating":2.5,
+               "created":"2022-08-12T09:47:32-07:00",
+               "modified":"2022-08-13T16:10:33-07:00",
+               "user_modified":"2022-08-12T09:48:50-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Bryan Pham",
+                  "name":"Bryan",
+                  "display_name":"Bryan Pham",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"BP",
+                  "tracking_id":"rI2Zf6OYQJaxfivUHmWwOQ",
+                  "public_display_name":"Bryan P."
+               },
+               "response":null,
+               "content_html":"<p>His voice in each video can either be audible or barely audible. If it was consistent then it would be fine, but I have to keep adjusting the volume.</p>",
+               "created_formatted_with_time_since":"3 weeks ago"
+            },
+            {
+               "_class":"course_review",
+               "id":120945340,
+               "content":"I found the course to be amazing, the instructor was clear and easy to follow. The instructions were easily available and covered almost every thing I could have asked for. The Q&A section was helpful as well. One negative aspect was that it did not exhaust all the topic especially from the data visualization were matplotlib did not even have a section.",
+               "rating":4.0,
+               "created":"2022-08-11T04:10:15-07:00",
+               "modified":"2022-08-12T16:06:45-07:00",
+               "user_modified":"2022-08-11T04:13:21-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Redon Deliu",
+                  "name":"Redon",
+                  "display_name":"Redon Deliu",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"RD",
+                  "tracking_id":"G4CWF0aUSduAYDM11bJynQ",
+                  "public_display_name":"Redon D."
+               },
+               "response":null,
+               "content_html":"<p>I found the course to be amazing, the instructor was clear and easy to follow. The instructions were easily available and covered almost every thing I could have asked for. The Q&A section was helpful as well. One negative aspect was that it did not exhaust all the topic especially from the data visualization were matplotlib did not even have a section.</p>",
+               "created_formatted_with_time_since":"3 weeks ago"
+            },
+            {
+               "_class":"course_review",
+               "id":116082176,
+               "content":"course is good but please update these course because many of the  code which is being used has been updated and some of the code doesn't work because of updating please mention these kind of thing while purchase because if you provide a updated course with 500 i thing you sale will boost up may be you ca raise price around 1500 rs  we can spend that much of money for knowledge",
+               "rating":5.0,
+               "created":"2022-06-10T01:19:13-07:00",
+               "modified":"2022-07-06T09:42:24-07:00",
+               "user_modified":"2022-07-06T09:42:24-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Tanishq",
+                  "name":"Tanishq",
+                  "display_name":"Tanishq",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"T",
+                  "tracking_id":"rxgpugN6RueABlUAywE1hQ",
+                  "public_display_name":"Tanishq"
+               },
+               "response":null,
+               "content_html":"<p>course is good but please update these course because many of the  code which is being used has been updated and some of the code doesn't work because of updating please mention these kind of thing while purchase because if you provide a updated course with 500 i thing you sale will boost up may be you ca raise price around 1500 rs  we can spend that much of money for knowledge</p>",
+               "created_formatted_with_time_since":"2 months ago"
+            },
+            {
+               "_class":"course_review",
+               "id":115296680,
+               "content":"Instructor was very clear and knowledgeable. I was able to understand all the concepts and apply them. The course was a little outdated but I was still able to get almost everything to work.",
+               "rating":5.0,
+               "created":"2022-05-31T05:23:17-07:00",
+               "modified":"2022-06-02T21:12:31-07:00",
+               "user_modified":"2022-05-31T05:24:52-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Jerell Smith",
+                  "name":"Jerell",
+                  "display_name":"Jerell Smith",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"JS",
+                  "tracking_id":"aWZRSGHDRwaqMfhI9xpo3Q",
+                  "public_display_name":"Jerell S."
+               },
+               "response":null,
+               "content_html":"<p>Instructor was very clear and knowledgeable. I was able to understand all the concepts and apply them. The course was a little outdated but I was still able to get almost everything to work.</p>",
+               "created_formatted_with_time_since":"3 months ago"
+            },
+            {
+               "_class":"course_review",
+               "id":111249980,
+               "content":"Really enjoyed the course, being a total beginner it really set a good foundation.",
+               "rating":4.5,
+               "created":"2022-04-05T22:58:50-07:00",
+               "modified":"2022-04-06T16:07:32-07:00",
+               "user_modified":"2022-04-05T22:59:49-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Sechaba Magatikele",
+                  "name":"Sechaba",
+                  "display_name":"Sechaba Magatikele",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"SM",
+                  "tracking_id":"XvsLG_6KRW2vr-SnWyhWsQ",
+                  "public_display_name":"Sechaba M."
+               },
+               "response":null,
+               "content_html":"<p>Really enjoyed the course, being a total beginner it really set a good foundation.</p>",
+               "created_formatted_with_time_since":"4 months ago"
+            },
+            {
+               "_class":"course_review",
+               "id":120160382,
+               "content":"Felt like many code parts / concepts were skimmed over with no explanation whatsoever - I understand that many concepts were previously explained or encouraged to further explore by yourself, however some code parts should've been atleast explained to some degree. Big fan of Jose in general from this other courses, I think he's a great tutor",
+               "rating":2.0,
+               "created":"2022-08-01T12:10:05-07:00",
+               "modified":"2022-08-02T16:09:50-07:00",
+               "user_modified":"2022-08-01T12:11:38-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Mouayad Masalkhi",
+                  "name":"Mouayad",
+                  "display_name":"Mouayad Masalkhi",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"MM",
+                  "tracking_id":"mG5a9a_KQMmuTZrubemGiw",
+                  "public_display_name":"Mouayad M."
+               },
+               "response":null,
+               "content_html":"<p>Felt like many code parts / concepts were skimmed over with no explanation whatsoever - I understand that many concepts were previously explained or encouraged to further explore by yourself, however some code parts should've been atleast explained to some degree. Big fan of Jose in general from this other courses, I think he's a great tutor</p>",
+               "created_formatted_with_time_since":"a month ago"
+            },
+            {
+               "_class":"course_review",
+               "id":120823346,
+               "content":"Awesome teacher! I'm enjoying the presented course material and learning a lot. Thank you Jose !!!!!",
+               "rating":5.0,
+               "created":"2022-08-09T17:29:38-07:00",
+               "modified":"2022-08-27T11:21:30-07:00",
+               "user_modified":"2022-08-27T11:21:30-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Justin Mabiala",
+                  "name":"Justin",
+                  "display_name":"Justin Mabiala",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"JM",
+                  "tracking_id":"OMxlwNMBQx6WR83GoHIjrQ",
+                  "public_display_name":"Justin M."
+               },
+               "response":null,
+               "content_html":"<p>Awesome teacher! I'm enjoying the presented course material and learning a lot. Thank you Jose !!!!!</p>",
+               "created_formatted_with_time_since":"3 weeks ago"
+            },
+            {
+               "_class":"course_review",
+               "id":119986350,
+               "content":"I haven't  even finished the course actually, but I must commend its so so amazing and its worth it.",
+               "rating":5.0,
+               "created":"2022-07-29T21:07:13-07:00",
+               "modified":"2022-08-11T15:23:43-07:00",
+               "user_modified":"2022-08-11T15:23:43-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Ferdinand Imeka",
+                  "name":"Ferdinand",
+                  "display_name":"Ferdinand Imeka",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"FI",
+                  "tracking_id":"6biwsihwTvi6eqTM_dD8_Q",
+                  "public_display_name":"Ferdinand I."
+               },
+               "response":null,
+               "content_html":"<p>I haven't  even finished the course actually, but I must commend its so so amazing and its worth it.</p>",
+               "created_formatted_with_time_since":"a month ago"
+            },
+            {
+               "_class":"course_review",
+               "id":114392712,
+               "content":"Very dry lectures, he talks about code without explaining what each means. Plus a lot of the code is out of date and invalid. There are also loads of typos in the Jupyter Notebook that just make the course seem sloppy. Would definitely not recommend buying this one in 2022.",
+               "rating":1.0,
+               "created":"2022-05-19T14:34:20-07:00",
+               "modified":"2022-07-08T14:13:39-07:00",
+               "user_modified":"2022-07-08T14:13:39-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Nathan Kwan",
+                  "name":"Nathan",
+                  "display_name":"Nathan Kwan",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"NK",
+                  "tracking_id":"QlUFF_xLTXmhdy7BZtfilw",
+                  "public_display_name":"Nathan K."
+               },
+               "response":null,
+               "content_html":"<p>Very dry lectures, he talks about code without explaining what each means. Plus a lot of the code is out of date and invalid. There are also loads of typos in the Jupyter Notebook that just make the course seem sloppy. Would definitely not recommend buying this one in 2022.</p>",
+               "created_formatted_with_time_since":"3 months ago"
+            },
+            {
+               "_class":"course_review",
+               "id":114770042,
+               "content":"Lots of codes relate to Python2 and it has been very difficult to search constantly search for the replacement for the deprecated commands",
+               "rating":3.0,
+               "created":"2022-05-24T11:53:53-07:00",
+               "modified":"2022-05-26T16:08:47-07:00",
+               "user_modified":"2022-05-24T11:54:30-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Bhuvana Raghuraman",
+                  "name":"Bhuvana",
+                  "display_name":"Bhuvana Raghuraman",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"BR",
+                  "tracking_id":"ifk_utkJSO6EcuMVrsWO4g",
+                  "public_display_name":"Bhuvana R."
+               },
+               "response":null,
+               "content_html":"<p>Lots of codes relate to Python2 and it has been very difficult to search constantly search for the replacement for the deprecated commands</p>",
+               "created_formatted_with_time_since":"3 months ago"
+            },
+            {
+               "_class":"course_review",
+               "id":115449950,
+               "content":"many of the syntax are old...may renew them :D",
+               "rating":4.0,
+               "created":"2022-06-01T23:24:38-07:00",
+               "modified":"2022-06-03T16:07:46-07:00",
+               "user_modified":"2022-06-01T23:25:06-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Abraham Baldo",
+                  "name":"Abraham",
+                  "display_name":"Abraham Baldo",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/190730640_184e_2.jpg",
+                  "initials":"AB",
+                  "tracking_id":"51eEaFwoRVuuOWwVNvje_Q",
+                  "public_display_name":"Abraham B."
+               },
+               "response":null,
+               "content_html":"<p>many of the syntax are old...may renew them :D</p>",
+               "created_formatted_with_time_since":"3 months ago"
+            },
+            {
+               "_class":"course_review",
+               "id":112115418,
+               "content":"Yes, courses broken down in small digestible videos, easy to follow along",
+               "rating":5.0,
+               "created":"2022-04-18T16:20:52-07:00",
+               "modified":"2022-05-06T11:31:10-07:00",
+               "user_modified":"2022-05-06T11:31:10-07:00",
+               "user":{
+                  "_class":"user",
+                  "title":"Ilaria Bossi",
+                  "name":"Ilaria",
+                  "display_name":"Ilaria Bossi",
+                  "image_50x50":"https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+                  "initials":"IB",
+                  "tracking_id":"z2LF4e9MRL6G9L3JooAkZg",
+                  "public_display_name":"Ilaria B."
+               },
+               "response":null,
+               "content_html":"<p>Yes, courses broken down in small digestible videos, easy to follow along</p>",
+               "created_formatted_with_time_since":"4 months ago"
+            }
+         ],
+         "stars":4.4,
+         "ratings_count":18122,
+         "students":191548,
+         "price":1599.99,
+         "bestseller":true,
+         "sections_num":15,
+         "lectures_num":110,
+         "total_hours":21,
+         "articles_num":3,
+         "downloadable_resources":4,
+         "total_minutes":5,
+         "learning_points":[
+            "Have an intermediate skill level of Python programming.",
+            "Use the Jupyter Notebook Environment.",
+            "Use the numpy library to create and manipulate arrays.",
+            "Use the pandas module with Python to create and structure data.",
+            "Learn how to work with various data formats within python, including: JSON,HTML, and MS Excel Worksheets.",
+            "Create data visualizations using matplotlib and the seaborn modules with python.",
+            "Have a portfolio of various data analysis projects."
+         ],
+         "last_updated":"09/2019",
+         "course_language":"English",
+         "caption_language":"English",
+         "top_category":"Development",
+         "sub_category":"Programming Languages",
+         "sub_sub_category":"Python",
+         "requirements":[
+            "Basic math skills.",
+            "Basic to Intermediate Python Skills",
+            "Have a computer (either Mac, Windows, or Linux)",
+            "Desire to learn!"
+         ],
+         "description_section":"<div><p><br></p><p><strong>PLEASE&nbsp;READ&nbsp;BEFORE&nbsp;ENROLLING:&nbsp;</strong></p><p><strong>1.)&nbsp;THERE&nbsp;IS&nbsp;AN&nbsp;UPDATED&nbsp;VERSION&nbsp;OF&nbsp;THIS&nbsp;COURSE:&nbsp;</strong></p><p><strong>PYTHON&nbsp;FOR&nbsp;DATA&nbsp;SCIENCE&nbsp;AND&nbsp;MACHINE&nbsp;LEARNING BOOTCAMP&nbsp;</strong></p><p><strong>2.)&nbsp;IF YOU ARE A COMPLETE BEGINNER IN PYTHON-CHECK OUT MY OTHER COURSE COMPLETE&nbsp;PYTHON&nbsp;MASTERCLASS&nbsp;JOURNEY!</strong></p><p><br></p><p><strong>CLICK&nbsp;ON&nbsp;MY&nbsp;PROFILE&nbsp;TO&nbsp;FIND&nbsp;IT. (PLEASE&nbsp;WATCH&nbsp;THE&nbsp;FIRST&nbsp;PROMO&nbsp;VIDEO&nbsp;ON&nbsp;THIS&nbsp;PAGE&nbsp;FOR&nbsp;MORE&nbsp;INFO)</strong></p><p>**********************************************************************************************************</p><p><br></p><p><strong>This course will give you the resources to learn python and effectively use it analyze and visualize data! Start your career in Data Science!</strong></p><p>&nbsp; &nbsp; You'll get a full understanding of how to program with Python and how to use it in conjunction with scientific computing modules and libraries to analyze data.&nbsp; </p><p>&nbsp; You will also get lifetime access to over 100 example python code notebooks, new and updated videos, as well as future additions of various data analysis projects that you can use for a portfolio to show future employers!&nbsp; </p><p>&nbsp; &nbsp; By the end of this course you will:&nbsp; </p><p>&nbsp; - Have an understanding of how to program in Python.&nbsp; </p><p>&nbsp; - Know how to create and manipulate arrays using numpy and Python.&nbsp; </p><p>&nbsp; - Know how to use pandas to create and analyze data sets.&nbsp; </p><p>&nbsp; - Know how to use matplotlib and seaborn libraries to create beautiful data visualization.&nbsp; </p><p>&nbsp; - Have an amazing portfolio of example python data analysis projects!&nbsp; </p><p>- Have an understanding of Machine Learning and SciKit Learn! </p><p>&nbsp; With 100+ lectures and over 20 hours of information and more than 100 example python code notebooks, you will be excellently prepared for a future in data science!&nbsp; </p></div>",
+         "content":[
+            {
+               "title":"Intro to Course and Python",
+               "points":[
+                  "Course Intro",
+                  "Course FAQs"
+               ]
+            },
+            {
+               "title":"Setup",
+               "points":[
+                  "Installation Setup and Overview",
+                  "IDEs and Course Resources",
+                  "iPython/Jupyter Notebook Overview"
+               ]
+            },
+            {
+               "title":"Learning Numpy",
+               "points":[
+                  "Intro to numpy",
+                  "Creating arrays",
+                  "Using arrays and scalars",
+                  "Indexing Arrays",
+                  "Array Transposition",
+                  "Universal Array Function",
+                  "Array Processing",
+                  "Array Input and Output"
+               ]
+            },
+            {
+               "title":"Intro to Pandas",
+               "points":[
+                  "Series",
+                  "DataFrames",
+                  "Index objects",
+                  "Reindex",
+                  "Drop Entry",
+                  "Selecting Entries",
+                  "Data Alignment",
+                  "Rank and Sort",
+                  "Summary Statistics",
+                  "Missing Data",
+                  "Index Hierarchy"
+               ]
+            },
+            {
+               "title":"Working with Data:Part 1",
+               "points":[
+                  "Reading and Writing Text Files",
+                  "JSON with Python",
+                  "HTML with Python",
+                  "Microsoft Excel files with Python"
+               ]
+            },
+            {
+               "title":"Working with Data:Part 2",
+               "points":[
+                  "Merge",
+                  "Merge on Index",
+                  "Concatenate",
+                  "Combining DataFrames",
+                  "Reshaping",
+                  "Pivoting",
+                  "Duplicates in DataFrames",
+                  "Mapping",
+                  "Replace",
+                  "Rename Index",
+                  "Binning",
+                  "Outliers",
+                  "Permutation"
+               ]
+            },
+            {
+               "title":"Working with Data:Part 3",
+               "points":[
+                  "GroupBy on DataFrames",
+                  "GroupBy on Dict and Series",
+                  "Aggregation",
+                  "Splitting Applying and Combining",
+                  "Cross Tabulation"
+               ]
+            },
+            {
+               "title":"Data Visualization",
+               "points":[
+                  "Installing Seaborn",
+                  "Histograms",
+                  "Kernel Density Estimate Plots",
+                  "Combining Plot Styles",
+                  "Box and Violin Plots",
+                  "Regression Plots",
+                  "Heatmaps and Clustered Matrices"
+               ]
+            },
+            {
+               "title":"Example Projects.",
+               "points":[
+                  "Data Projects Preview",
+                  "Intro to Data Projects",
+                  "Titanic Project - Part 1",
+                  "Titanic Project - Part 2",
+                  "Titanic Project - Part 3",
+                  "Titanic Project - Part 4",
+                  "Intro to Data Project - Stock Market Analysis",
+                  "Data Project - Stock Market Analysis Part 1",
+                  "Data Project - Stock Market Analysis Part 2",
+                  "Data Project - Stock Market Analysis Part 3",
+                  "Data Project - Stock Market Analysis Part 4",
+                  "Data Project - Stock Market Analysis Part 5",
+                  "Data Project - Intro to Election Analysis",
+                  "Data Project - Election Analysis Part 1",
+                  "Data Project - Election Analysis Part 2",
+                  "Data Project - Election Analysis Part 3",
+                  "Data Project - Election Analysis Part 4"
+               ]
+            },
+            {
+               "title":"Machine Learning",
+               "points":[
+                  "Introduction to Machine Learning with SciKit Learn",
+                  "Linear Regression Part 1",
+                  "Linear Regression Part 2",
+                  "Linear Regression Part 3",
+                  "Linear Regression Part 4",
+                  "Logistic Regression Part 1",
+                  "Logistic Regression Part 2",
+                  "Logistic Regression Part 3",
+                  "Logistic Regression Part 4",
+                  "Multi Class Classification  Part 1 - Logistic Regression",
+                  "Multi Class Classification Part 2 - k Nearest Neighbor",
+                  "Support Vector Machines Part 1",
+                  "Support Vector Machines - Part 2",
+                  "Naive Bayes Part 1",
+                  "Naive Bayes Part 2",
+                  "Decision Trees and Random Forests",
+                  "Natural Language Processing Part 1",
+                  "Natural Language Processing Part 2",
+                  "Natural Language Processing Part 3",
+                  "Natural Language Processing Part 4"
+               ]
+            }
+         ]
       },
       {
         "id": "python_c3",

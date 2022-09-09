@@ -30,12 +30,13 @@
     color: orange;
     display: inline-block;
 }
-.ratings_count{
+.ratings_count_button{
     color:#cec0fc;
     display: inline-block;
     margin-left: 7px;
-    border-bottom: 1.5px solid #cec0fc;
+    background-color: rgba(0, 0, 0, 0.0);
     font-size: 0.9rem;
+    border: 0px
 }
 .students_count{
     color:white;

@@ -74,9 +74,9 @@ function CoursePageRightComponent(props) {
           <p className={styles.included_inner_text}>Certificate of completion</p>
         </div>
         <div className={styles.share_gift_and_coupon_buttons}>
-          <button className={styles.under_lined_button}>Share</button>
-          <button className={styles.under_lined_button}>Gift this course</button>
-          <button className={styles.under_lined_button}>Apply Coupon</button>
+          <button className={styles.under_lined_button}><u>Share</u></button>
+          <button className={styles.under_lined_button}><u>Gift this course</u></button>
+          <button className={styles.under_lined_button}><u>Apply Coupon</u></button>
         </div>
         <div className={styles.business_plans}>
           <h3 className={styles.business_plans_head_text}>Training 5 or more people?</h3>

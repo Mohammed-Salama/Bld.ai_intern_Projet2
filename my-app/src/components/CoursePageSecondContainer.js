@@ -27,7 +27,7 @@ function CoursePageSecondContainer(props) {
             <p className={styles.courses_page_second_container_description}>{props.data.description}</p>
             <h5 className={styles.rating}>{props.data.stars}</h5>
             <Rating readonly={true} allowHover={false} onClick={()=>{}} initialValue={props.data.stars} size={15}></Rating>
-            <p className={styles.ratings_count}>{"("+props.data.ratings_count+" ratings)"}</p>
+            <button className={styles.ratings_count_button}><u>{"("+props.data.ratings_count+" ratings)"}</u></button>
             <p className={styles.students_count}>{props.data.students+" students"}</p>
             <br/>
             <p className={styles.created_text}>{"Created by"}</p>
