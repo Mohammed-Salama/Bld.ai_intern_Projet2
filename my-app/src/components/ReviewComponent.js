@@ -21,7 +21,7 @@ function ReviewComponent(props) {
         <div className={styles.review_right_container}>
             <h5 className={styles.reviewer_name}>{props.data.user.public_display_name}</h5>
             <Rating className={styles.stars_bar} readonly={true} allowHover={false} onClick={()=>{}} initialValue={props.data.rating} size={18}></Rating>
-            <ReactTimeAgo className={styles.created_ago} date={props.data.created} locale="en-US"/>
+            <ReactTimeAgo className={styles.created_ago} date={new Date(props.data.created)} locale="en-US"/>
             <Spoiler controlRef={spoilerControlRef} maxHeight={60} showLabel="Show more" hideLabel="Show less">
               <p className={styles.review_text}>{props.data.content}</p>
             </Spoiler>
