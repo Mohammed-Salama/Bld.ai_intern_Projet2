@@ -5,7 +5,7 @@ import CoursePageTopContainer from './CoursePageTopContainer';
 import CoursePageSecondContainer from './CoursePageSecondContainer';
 import CoursePageThirdContainer from './CoursePageThirdContainer';
 import CoursePageRightComponent from './CoursePageRightComponent.js';
-
+import CoursePageFooter from './CoursePageFooter.js';
 
 function CoursePage() {
   const courseID = useParams();
@@ -19,6 +19,7 @@ function CoursePage() {
       <CoursePageSecondContainer data={courseData}/>
       <CoursePageThirdContainer data={courseData}/>
       <CoursePageRightComponent data={courseData}/>
+      <CoursePageFooter/>
     </>
   )
 }
