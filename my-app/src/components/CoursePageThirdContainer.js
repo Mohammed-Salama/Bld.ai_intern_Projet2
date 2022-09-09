@@ -5,6 +5,7 @@ import DropDown from './DropDown'
 import CourseDescriptionSection from './CourseDescriptionSection'
 import CoursePageInstructorsContainer from './CoursePageInstructorsContainer'
 import StudentsFeedbackComponent from './StudentsFeedbackComponent'
+import CourseReviewsSection from './CourseReviewsSection'
 import { Spoiler } from '@mantine/core';
 function CoursePageThirdContainer(props) {
   const [expand_collapse , setExpand_collapse] = useState("Expand");
@@ -56,6 +57,7 @@ function CoursePageThirdContainer(props) {
         <CourseDescriptionSection data={props.data.description_section}/>
         <CoursePageInstructorsContainer data={props.data.instructors}/>
         <StudentsFeedbackComponent data={props.data.students_feedback}/>
+        <CourseReviewsSection data={props.data.reviews}/>
       </div>
     </div>
   )
