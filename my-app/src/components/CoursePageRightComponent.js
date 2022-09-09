@@ -8,10 +8,13 @@ function CoursePageRightComponent(props) {
   const outerRef = useRef(null);
   const innerRef = useRef(null);
   const prTextRef = useRef(null);
+  
   useEffect(()=>{
+    let maxY = document.documentElement.scrollHeight - document.documentElement.clientHeight-500;
+    let topMaxY = maxY-160;
     window.addEventListener('scroll',()=>{
       if(outerRef.current){
-        if(window.scrollY>390 && window.scrollY<2260){
+        if(window.scrollY>390 && window.scrollY<maxY){
           outerRef.current.style.position='fixed'
           outerRef.current.style.top='30px'
           outerRef.current.style.zIndex='4'
@@ -19,9 +22,9 @@ function CoursePageRightComponent(props) {
           innerRef.current.style.height='0px'
           prTextRef.current.style.display='none'
         }
-        else if (window.scrollY>2260){
+        else if (window.scrollY>maxY){
           outerRef.current.style.position='absolute'
-          outerRef.current.style.top='2100px'
+          outerRef.current.style.top=`${topMaxY}px`
           outerRef.current.style.zIndex='1'
           innerRef.current.style.dispaly='flex'
           innerRef.current.style.height='190px'

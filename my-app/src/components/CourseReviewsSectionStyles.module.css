@@ -14,3 +14,35 @@
     background-color: white;
     border: 2px solid #000000;
  }
+ .filter_reviews_section{
+    display: flex;
+ }
+ .reviews_search_form{
+    flex-grow: 1;
+    height: 40px;
+    display: flex;
+ }
+ .reviews_search_input{
+    height: 100%;
+    flex-grow: 1;
+ }
+ .reviews_search_button{
+    height: 45px;
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }
+ .select_ratings{
+    margin-left: 10px;
+    height: 45px;
+    background-color: white;
+    border: 2px solid #000000;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #000000;
+ }
