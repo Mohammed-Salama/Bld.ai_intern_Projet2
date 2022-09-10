@@ -92,3 +92,11 @@
     color: white;
     margin-right: 45px;
 }
+@media screen and (max-width: 500px) {
+
+    .footer_mid_container{
+        flex-direction: column;
+    }
+   
+}
+    
