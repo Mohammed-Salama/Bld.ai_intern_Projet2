@@ -11,7 +11,7 @@ function PopUpComponent(props) {
       <p className={styles.pop_up_updated_text}>Updated {props.data.last_updated}</p>
       <p className={styles.pop_up_hours_text}>{props.data.total_hours} total hours</p>
       <p className={styles.pop_up_description_text}>{props.data.description}</p>
-      {props.data.learning_points.map((point, index) => {
+      {props.data.learning_points?.map((point, index) => {
         return (
           <div key={index} className={styles.pop_up_learning_point_container}>
             <FontAwesomeIcon className={styles.check_icon} icon={faCheck}></FontAwesomeIcon>

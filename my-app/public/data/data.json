@@ -1037,6 +1037,14 @@
          "Become an experienced Python Programmer",
          "Parse the Web and Create their own Games"
        ],
+       "students_feedback":{
+         "five_stars_percentage":"43",
+         "four_stars_percentage":"37",
+         "three_stars_percentage":"15",
+         "two_stars_percentage":"3",
+         "one_star_percentage":"2",
+         "avg_stars":"4.4"
+      },
         "stars":4.2,
         "ratings_count":1231,
         "students":  14924,
@@ -1064,6 +1072,14 @@
          "Become an experienced Python Programmer",
          "Parse the Web and Create their own Games"
        ],
+       "students_feedback":{
+         "five_stars_percentage":"43",
+         "four_stars_percentage":"37",
+         "three_stars_percentage":"15",
+         "two_stars_percentage":"3",
+         "one_star_percentage":"2",
+         "avg_stars":"4.4"
+      },
         "stars":4.5,
         "ratings_count":1439,
         "students":  23523,
@@ -1091,6 +1107,14 @@
          "Become an experienced Python Programmer",
          "Parse the Web and Create their own Games"
        ],
+       "students_feedback":{
+         "five_stars_percentage":"43",
+         "four_stars_percentage":"37",
+         "three_stars_percentage":"15",
+         "two_stars_percentage":"3",
+         "one_star_percentage":"2",
+         "avg_stars":"4.4"
+      },
         "stars":4.4,
         "ratings_count":2570,
         "students":  11323,
@@ -1118,6 +1142,14 @@
             "Become an experienced Python Programmer",
             "Parse the Web and Create their own Games"
           ],
+          "students_feedback":{
+            "five_stars_percentage":"43",
+            "four_stars_percentage":"37",
+            "three_stars_percentage":"15",
+            "two_stars_percentage":"3",
+            "one_star_percentage":"2",
+            "avg_stars":"4.4"
+         },
         "stars":4,
         "ratings_count":9471,
         "students":  21423,

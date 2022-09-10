@@ -9,23 +9,23 @@ import CourseReviewsSection from './CourseReviewsSection'
 import { Spoiler } from '@mantine/core';
 function CoursePageThirdContainer(props) {
   const [expand_collapse , setExpand_collapse] = useState("Expand");
-  const [dropDowns , setDropDowns] = useState(props.data.content.map((dropDown,index) => 
+  const [dropDowns , setDropDowns] = useState(props.data.content?.map((dropDown,index) => 
   <DropDown key={index} data={dropDown} first_state={0}></DropDown>
 ));
   function toggleExpandCollapse() {
     let num = props.data.content.length;
     if (expand_collapse === "Expand") {
       setExpand_collapse("Collapse");
-      setDropDowns( props.data.content.map((dropDown,index) => 
+      setDropDowns( props.data.content?.map((dropDown,index) => 
       <DropDown key={index+num} data={dropDown} first_state={1}></DropDown>))
     } else {
       setExpand_collapse("Expand");
-      setDropDowns( props.data.content.map((dropDown,index) => 
+      setDropDowns( props.data.content?.map((dropDown,index) => 
       <DropDown key={index} data={dropDown} first_state={0}></DropDown>))
     }
   }
    
-  const requirements = props.data.requirements.map((requirement,index) => {
+  const requirements = props.data.requirements?.map((requirement,index) => {
     return (
       <li key={index} className={styles.requirement_list_item}>{requirement}</li>
     )

@@ -5,7 +5,7 @@ import { Spoiler } from '@mantine/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
 function CourseReviewsSection(props) {
-    const reviews = props.data.map(review => (
+    const reviews = props.data?.map(review => (
         <ReviewComponent key={review.id} data={review}/>
     ));
     const  spoilerControlRef = useCallback(node => {

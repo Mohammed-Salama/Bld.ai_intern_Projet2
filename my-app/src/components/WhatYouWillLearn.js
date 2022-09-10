@@ -3,7 +3,7 @@ import styles from './WhatYouWillLearnStyles.module.css'
 import { faCheck} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function WhatYouWillLearn(props) {
-    const leaning_points = props.data.learning_points.map((point,index) => 
+    const leaning_points = props.data.learning_points?.map((point,index) => 
     <li key={index} className={styles.list_item}>
         <FontAwesomeIcon className={styles.icon} icon={faCheck} fontSize="small"></FontAwesomeIcon>
         {point}

@@ -3,7 +3,7 @@ import styles from './CoursePageSecondContainerStyles.module.css'
 import {Rating} from 'react-simple-star-rating'
 import VideoContainer from './VideoContainer'
 function CoursePageSecondContainer(props) {
-   const Instructors = props.data.instructors.map((instructor , index) =>{
+   const Instructors = props.data.instructors?.map((instructor , index) =>{
     if (index===props.data.instructors.length-1){
         return <p key={index} className={styles.instructor}>{instructor.name}</p>
     }

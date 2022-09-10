@@ -24,7 +24,7 @@ function DropDown(props) {
       contentRef.current.style.display = "inline-block";
     }
   }, [opened])
-  const content = props.data.points.map((point , index) => {
+  const content = props.data.points?.map((point , index) => {
     return (
       <div key={index}>
         <FontAwesomeIcon className={styles.play_icon} fontSize="small" icon={faPlayCircle}></FontAwesomeIcon>

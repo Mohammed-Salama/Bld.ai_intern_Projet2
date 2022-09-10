@@ -71,7 +71,7 @@ function CoursePageFooter() {
 
             <div className={styles.footer_mid_container}>
                 <div className={styles.footer_mid_left_container}>
-                    {footer_mid_buttons.map((button,index) => (
+                    {footer_mid_buttons?.map((button,index) => (
                         <button key={index} className={styles.footer_mid_button}>{button.text}</button>
                     ))}
                 </div>

@@ -17,10 +17,10 @@ function CardsSection() {
         <p className={styles.courses_container_inner_description}>{data.description}</p>
         <button className={styles.explore_button}>{"Explore "+data.topic}</button>
         <div className={styles.courses_cards_box}>
-            {filteredCourses.map(course => (
+            {filteredCourses?.map(course => (
               <Card key={course.id} data={course}/>
             ))}
-            
+
         </div>
     </div>
   )
