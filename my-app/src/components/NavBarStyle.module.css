@@ -1,0 +1,111 @@
+.nav_bar{
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px rgb(209, 209, 209);
+    display: flex;
+    /*position: fixed;*/
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+.nav_logo{
+  height: 34px;
+  width: 91px;
+}
+
+.nav_logo_box{
+  margin: 18px 0px 18px 20px;
+}
+.nav_button{
+  background-color: white; /* Green */
+  border: none;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: rgb(65,65,65);
+  margin-left: 20px;
+}
+.search_form{
+    display: flex;
+    margin: auto;
+    flex-grow:1 ;
+    margin-left: 20px;
+}
+.search_input{
+    background-color: rgb(251, 251, 251);
+    height: 44px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 14px;
+    flex-grow: 1;
+    margin: auto;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-left: 30px;
+    font-family: FontAwesome;
+}
+.nav_login_button{
+    background-color: white; /* Green */
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 1rem;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  .nav_sign_up_button{
+    background-color: black; /* Green */
+    border: 1px solid black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 1rem;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .nav_language_button{
+    background-color: white; /* Green */
+    border: 1px solid black;
+    color: white;
+    height: 40px;   
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+
+  .world_grid_icon{
+    height: 30px; 
+    width: 30px;
+    margin: auto;
+    margin-top: 2px;
+  }
+
+  .nav_button:hover{
+    color: blueviolet;
+}
+@media screen and (min-width:800px) {
+  .active_small{
+    display: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .nav_logo_box{
+    /*justify-self: center;*/
+    margin: auto;
+  }
+  .active_large{
+    display: none;
+  }
+  .active_small{
+    float: right;
+  }
+}

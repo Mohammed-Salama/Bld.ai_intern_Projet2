@@ -1,0 +1,91 @@
+.pop_up_container{
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    border: 1px solid rgb(170, 170, 170);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+}
+
+
+.pop_up_title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+}
+.pop_up_updated_text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+    color: #1e6055;
+    font-weight: 500;
+}
+.pop_up_hours_text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.8rem;
+    color: #818181;
+    font-weight: 500;
+    padding-top: 8px;
+}
+.pop_up_description_text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    color: #6b6b6b;
+    font-weight: 400;
+    padding-top: 12px;
+}
+.check_icon{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 12px;
+}
+.pop_up_learning_point_text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+    color: #363636;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+}
+.pop_up_learning_point_container{
+    display: flex;
+}
+.pop_up_add_to_cart_button{
+    border: 0px;
+    color: white;
+    background-color: #a435f0;
+    flex-grow:1 ;
+    margin-right: 10px;
+    border: 0px;
+    height: 40px;
+}
+.pop_up_last_raw_container{
+    display: flex;
+    margin-top: 15px;
+}
+.pop_up_add_to_card_button{
+    display: inline-block;
+    flex-grow: 1;
+}
+.heart_button{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    
+}
+.heart_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    padding: 5px;
+}

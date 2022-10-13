@@ -1,77 +1,65 @@
-import logo from './logo.svg';
+import React , {useEffect , useState} from 'react';
 import './App.css';
-import CardsSection from './components/CardsSection';
+import NavBar from './components/NavBar';
+//import data from './data/data.json';
+import {Routes, Route , useSearchParams} from 'react-router-dom';
+import HomePage from './components/HomePage';
+import CoursePage from './components/CoursePage';
+import ScrollToTop from './components/ScrollToTop';
+import { ColorRing } from 'react-loader-spinner'
+export const CoursesDataContext = React.createContext();
 
-let data = {
-  "courses": [
+function App(){
+  const [appState , setAppState] = useState(
     {
-      "id": "python_c1",
-      "img":"./imgs/python-c1.jpg",
-      "title":"Learn Python: The Complete Python Programming Course",
-      "instructor":"Avinash Jain, The Codex",
-      "stars":4.3,
-      "students":1721,
-      "price":679.99,
-      "bestseller":false
-    },
-    {
-      "id": "python_c2",
-      "img":"./imgs/python-c2.jpg",
-      "title":"Learning Python for Data Analysis and Visualization",
-      "instructor":"Jose Portille",
-      "stars":4.8,
-      "students":4037,
-      "price":1499.99,
-      "bestseller":true
-    },
-    {
-      "id": "python_c3",
-      "img":"./imgs/python-c3.jpg",
-      "title":"Python for Beginners - Learn Programming from scratch",
-      "instructor":"Edwin Diaz, Coding Faculty Solutions",
-      "stars":4.2,
-      "students":1231,
-      "price":679.99,
-      "bestseller":false
-    },
-    {
-      "id": "python_c4",
-      "img":"./imgs/python-c4.jpg",
-      "title":"Learn Python: Python for Beginners",
-      "instructor":"Abrar Hussain",
-      "stars":4.5,
-      "students":1439,
-      "price":389.99,
-      "bestseller":false
-    },
-    {
-      "id": "python_c5",
-      "img":"./imgs/python-c5.jpg",
-      "title":"Python Beyond the Basics - Object-Oriented Programming",
-      "instructor":"Infinite Skills",
-      "stars":4.4,
-      "students":2570,
-      "price":529.99,
-      "bestseller":false
-    },
-    {
-      "id": "python_c6",
-      "img":"./imgs/python-c6.jpg",
-      "title":"Python for Data Structures, Algorithms, and Interviews!",
-      "instructor":"Jose Portilla",
-      "stars":4,
-      "students":9471,
-      "price":1299.99,
-      "bestseller":false
+      data: "",
+      isLoading: false,
+      error: "",
     }
-  ],
-  title:"Expand your career opportunities with Python",
-  description:"Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to ...",
-  topic:"Python"
-}
-function App() {
+  );
+  const [searchParams, setSearchParams] = useSearchParams();
+  useEffect(()=>{
+      setAppState({...appState, isLoading: true});
+      fetch("http://localhost:3000/data/data.json")
+        .then((response) => response.json())
+        .then((json) => {
+          setAppState({ data: json, isLoading: false, error: "" });
+        })
+        .catch((error) => {
+          setAppState({ ...appState, isLoading: false, error: "Cannot fetch the data" });
+        });
+        return () => {
+          const param = searchParams.get('courses_filter');
+          if (param) {
+            searchParams.delete('courses_filter');
+            setSearchParams(searchParams);
+          }
+        };
+         // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  const renderScreen = () => {
+    if (appState.isLoading) {
+      return <div className='loading_spinner_box'><ColorRing  visible={true} height="80" width="80" ariaLabel="blocks-loading" wrapperStyle={{}} wrapperClass="blocks-wrapper" colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}/></div>;
+    } else if (appState.error) {
+      return <div className="error">{appState.error}</div>;
+    } else if(appState.data) {
+      return (
+        <CoursesDataContext.Provider value={{"courses_data":appState.data , "courses_filter":searchParams}}>
+        <NavBar data={{"setSearchParameters":setSearchParams}}/>
+        <ScrollToTop>
+        <Routes> 
+          <Route path="/" element={<HomePage/>} />
+          <Route path="/courses/:courseId" element={<CoursePage/>} />
+        </Routes>
+        </ScrollToTop>
+      </CoursesDataContext.Provider>
+      );
+    }
+  };
   return (
-    <CardsSection data={data}/>
+    <>
+    {renderScreen()}
+    </>
   );
 }
 

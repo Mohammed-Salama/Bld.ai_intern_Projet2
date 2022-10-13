@@ -1,0 +1,16 @@
+.welcome_page_second_container {
+    width: 78%;
+    /*position: relative;
+    top:70px;*/
+    margin: auto;
+  }
+
+  @media screen and (max-width:700px) {
+    .courses_container_text_tilte{
+      font-size: 1.5rem;
+  }
+
+  .courses_container_text_description{
+    font-size: .95rem;
+  }
+  }

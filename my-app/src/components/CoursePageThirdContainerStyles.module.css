@@ -1,0 +1,76 @@
+.courses_page_Third_container{
+    width: 100%;
+ }
+ .inner_container{
+    display: inline-block;
+    /*margin-left: 15%;    */
+    margin-left:min(240px, max(calc(100vw - 1200px + 50px) , 30px));
+    max-width: 650px;
+ }
+.course_info{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 10px;
+    color: rgb(46, 45, 45);
+    display: inline-block;
+}
+.content_title{
+   margin-top: 25px;
+   margin-bottom: 15px;
+}
+
+.requirements_title{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.requirement_list_item{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-bottom: 8px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 5px;
+    color: rgb(46, 45, 45);
+}
+.info_and_expand{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.expand_collapse_button{
+   color: #5624d0;
+   border: 0px;
+   background-color: white;
+   font-weight: 800;
+}
+
+.show_more_and_less_button{
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 600;
+   font-size: 0.9rem;
+   height: 40px;
+   background-color: white;
+   border: 2px solid #000000;
+}
+@media screen and (max-width:1080px){
+   .inner_container{
+      margin-left: min(240px, max( (calc(100vw - 630px ) /2 , 30px)));
+   }
+}
+@media screen and (max-width:700px){
+   .inner_container{
+      width: 400px;
+      margin-left: min(240px, max( (calc(100vw - 400px ) /2 , 30px)));
+   }
+}
+   
