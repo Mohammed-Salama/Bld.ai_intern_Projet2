@@ -1,0 +1,85 @@
+.course{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /*padding-top: 0px;*/
+    width: 240px;
+    border: 1px solid rgb(175, 173, 173);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.course_img{
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.course_description_text{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.course_figure_tag{
+    margin: 0px;
+    padding: 0px;
+}
+
+.instructor{
+    font-family: Calibri;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(120,120,120);
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.stars_rating_bar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.stars_count{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: orange;
+    margin-right: 2px;
+}
+.ratings_count{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: gray;
+    margin-left: 2px;
+}
+
+.course_price{
+    font-family: Calibri;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bestseller_badge{
+    background-color:  #eceb98;;
+    width: 54px;
+    padding-left: 5px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+.bestseller_text{
+    font-family: Calibri;
+    color: #1c1d1f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.8rem;
+}
