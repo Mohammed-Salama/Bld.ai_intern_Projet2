@@ -22,16 +22,17 @@ Udemy is a widely-used platform for online learning, offering a vast array of co
 ## Demo
 
 ### Home Page
-![Home Page Demo](https://github.com/Mohammed-Salama/Cloning_Udemy/blob/main/media/first_page.mp4)
+https://github.com/Mohammed-Salama/Cloning_Udemy/assets/62220722/6063db52-7fb0-4f0c-b930-89b47d06253b
 
 ### Course Page
-![Course Page Demo](https://github.com/Mohammed-Salama/Cloning_Udemy/blob/main/media/second_page.mp4)
+https://github.com/Mohammed-Salama/Cloning_Udemy/assets/62220722/d5f979b5-4343-484a-a05a-0de7871a46ed
 
 ### Responsive Design
 The pages are designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
-![Responsive Design Demo](https://github.com/Mohammed-Salama/Cloning_Udemy/blob/main/media/first_page_responive.mp4)
 
-![Responsive Design Demo](https://github.com/Mohammed-Salama/Cloning_Udemy/blob/main/media/second_page_responive.mp4)
+https://github.com/Mohammed-Salama/Cloning_Udemy/assets/62220722/eafa8f21-bc06-4d6a-9e2b-ab184c90d4a3
+
+https://github.com/Mohammed-Salama/Cloning_Udemy/assets/62220722/04fce496-73e8-4992-80ac-ac84528b1f54
 
 ## Installation
 
